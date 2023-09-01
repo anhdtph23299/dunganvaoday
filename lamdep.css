@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+
+main {
+  height: 100vh;
+  background-image: url("https://cf.shopee.vn/file/10b963f07b24ca67750ae6c26f94b287");
+  min-height: 100%;
+  background-size: cover;
+}
+.btn {
+  height: 50px;
+}
+.abc {
+  font-size: 100px;
+  color: red;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.abcd {
+  font-size: 100px;
+  color: darkviolet;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* .btn-danger:hover {
+  cursor: pointer;
+  animation: move 1s linear infinite;
+}
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, -50px);
+  }
+  50% {
+    transform: translate(100px, 0);
+  }
+  75% {
+    transform: translate(50px, 50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+} */
+.btn-danger {
+  position: absolute;
+}
+audio::-webkit-media-controls {
+  display: none !important;
+}
+audio::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+audio::-webkit-media-controls-panel {
+  display: none !important;
+}
+audio::-webkit-media-controls-play-button {
+  display: none !important;
+}
+audio::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
